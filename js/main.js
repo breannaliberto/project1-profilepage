@@ -1,2 +1,3 @@
 $("#alert").click( function()
-  alert("It works!");
+ alert("It works!");
+)
