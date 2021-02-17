@@ -1,3 +1,3 @@
-$("#alert").click( function()
+$("#alert").click( function() {
  alert("It works!");
-)
+})
