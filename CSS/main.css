@@ -6,16 +6,50 @@ body {
   font-family: halyard display light;
   }
 
-/* The sidebar menu */
-.sidenav {
+  /* Main Page */
+
+
+   .header h1 {
+   margin-left: 387px;
+   padding-top: 38px;
+   padding-bottom: 15px;
+   font-size: 22px;
+   }
+
+   .featuredsongs {
+     margin-left: 120px;
+   }
+   .featuredsongs img {
+   padding: 10px 10px 10px 30px;
+   }
+
+   .featuredalbums {
+   margin-left: 350px;
+   margin-right: 220px;
+   }
+   .featuredalbums img {
+   padding: 10px 10px 10px 20px;
+   }
+
+   .lennonslegacy p {
+    margin-left: 435px;
+    margin-right: 285px;
+    text-align: left;
+    text-align: justify;
+    font-size: 17px;
+   }
+
+
+/* sidebar menu */
+.profile {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 300px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #fff; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #fff;
+  overflow-x: hidden;
   overflow-y: hidden;
   padding-top: 50px;
   border-style: solid;
@@ -23,43 +57,58 @@ body {
   border-color: #e0e2e1;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 4px 4px 4px 4px;
-  text-decoration: none;
-  font-size: 12px;
-  color: #818181;
-  display: block;
-}
 
-.sidenav p {
+.profile p {
 padding: 0px 50px 0px 52px;
 text-align: left;
 text-align: justify;
 
 }
 
-h1 {
-    margin: 0px;
-    padding-left: 50px;
-    text-align: left;
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 180px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 48px;
 }
 
-h6 {
-    margin: 1px;
-    padding-left: 50px;
-    text-align: left;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: halyard display light;
+  font-size: 18px;
+  color: #818181;
+  display: block;
 }
-/* When you mouse over the navigation links, change their color */
+
+/* navigation links hover color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
+
+/* Headers */
+ h1 {
+    margin: 0px;
+    padding-left: 50px;
+    text-align: left;
+ }
+
+ h6 {
+    margin: 1px;
+    padding-left: 50px;
+    text-align: left;
+ }
+
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
