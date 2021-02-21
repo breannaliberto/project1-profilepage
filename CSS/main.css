@@ -4,6 +4,8 @@ body {
   text-align: center;
   font-size: 20px;
   font-family: halyard display light;
+  position: absolute;
+
   }
 
   /* Main Page */
@@ -17,11 +19,12 @@ body {
    }
 
    .featuredsongs {
-     margin-left: 120px;
+     margin-left: 350px;
+     margin-right: 220px;
    }
    .featuredsongs img {
    padding: 10px 10px 10px 30px;
-   }
+     }
 
    .featuredalbums {
    margin-left: 350px;
@@ -29,16 +32,59 @@ body {
    }
    .featuredalbums img {
    padding: 10px 10px 10px 20px;
-   }
+      }
 
    .lennonslegacy p {
     margin-left: 435px;
     margin-right: 285px;
+    line-height: 1.8;
     text-align: left;
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
+   }
+   .formingthebeatles p {
+    margin-left: 435px;
+    margin-right: 285px;
+    line-height: 1.8;
+    text-align: left;
+    text-align: justify;
+    font-size: 15px;
    }
 
+   .beatlemania p {
+    margin-left: 435px;
+    margin-right: 285px;
+    line-height: 1.8;
+    text-align: left;
+    text-align: justify;
+    font-size: 15px;
+   }
+
+   .thebeatlesbreakup p {
+    margin-left: 435px;
+    margin-right: 285px;
+    line-height: 1.8;
+    text-align: left;
+    text-align: justify;
+    font-size: 15px;
+   }
+   .solocareer p {
+    margin-left: 435px;
+    margin-right: 285px;
+    line-height: 1.8;
+    text-align: left;
+    text-align: justify;
+    font-size: 15px;
+   }
+
+   .tragicdeath p {
+    margin-left: 435px;
+    margin-right: 285px;
+    line-height: 1.8;
+    text-align: left;
+    text-align: justify;
+    font-size: 15px;
+   }
 
 /* sidebar menu */
 .profile {
@@ -80,10 +126,11 @@ text-align: justify;
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-family: halyard display light;
-  font-size: 18px;
+  text-align: left;
+  font-size: 16px;
   color: #818181;
   display: block;
 }
@@ -110,7 +157,6 @@ text-align: justify;
 
 
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
