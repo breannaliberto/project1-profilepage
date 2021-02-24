@@ -6,9 +6,18 @@ body {
   font-family: halyard display light;
   position: absolute;
 
+
   }
 
   /* Main Page */
+
+
+  .main img {
+  margin-left: 435px;
+  margin-right: 285px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
 
 
    .header h1 {
