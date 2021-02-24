@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   font-family: halyard display light;
   position: absolute;
+  padding-bottom: 40px;
 
 
   }
@@ -18,7 +19,13 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   }
-
+  .imgheader h1 {
+  margin-left: 387px;
+  margin-right: 285px;
+  padding-bottom: 30px;
+  padding-top: 38px;
+  font-size: 22px;
+  }
 
    .header h1 {
    margin-left: 387px;
@@ -31,62 +38,25 @@ body {
      margin-left: 350px;
      margin-right: 220px;
    }
-   .featuredsongs img {
+   .featuredsongs a {
    padding: 10px 10px 10px 30px;
+   text-decoration:none;
      }
 
    .featuredalbums {
    margin-left: 350px;
    margin-right: 220px;
+   padding-bottom: 20px
    }
-   .featuredalbums img {
+
+
+
+   .featuredalbums a {
    padding: 10px 10px 10px 20px;
-      }
+   text-decoration:none;
+  }
 
-   .lennonslegacy p {
-    margin-left: 435px;
-    margin-right: 285px;
-    line-height: 1.8;
-    text-align: left;
-    text-align: justify;
-    font-size: 15px;
-   }
-   .formingthebeatles p {
-    margin-left: 435px;
-    margin-right: 285px;
-    line-height: 1.8;
-    text-align: left;
-    text-align: justify;
-    font-size: 15px;
-   }
-
-   .beatlemania p {
-    margin-left: 435px;
-    margin-right: 285px;
-    line-height: 1.8;
-    text-align: left;
-    text-align: justify;
-    font-size: 15px;
-   }
-
-   .thebeatlesbreakup p {
-    margin-left: 435px;
-    margin-right: 285px;
-    line-height: 1.8;
-    text-align: left;
-    text-align: justify;
-    font-size: 15px;
-   }
-   .solocareer p {
-    margin-left: 435px;
-    margin-right: 285px;
-    line-height: 1.8;
-    text-align: left;
-    text-align: justify;
-    font-size: 15px;
-   }
-
-   .tragicdeath p {
+   .main p {
     margin-left: 435px;
     margin-right: 285px;
     line-height: 1.8;
@@ -112,6 +82,10 @@ body {
   border-color: #e0e2e1;
 }
 
+.profile h1 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
 
 .profile p {
 padding: 0px 50px 0px 52px;
@@ -135,13 +109,18 @@ text-align: justify;
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 20px 20px;
   text-decoration: none;
   font-family: halyard display light;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   color: #818181;
   display: block;
+}
+
+.sidenav img {
+  padding-top: 210px;
+  opacity: 50%;
 }
 
 /* navigation links hover color */
@@ -154,6 +133,7 @@ text-align: justify;
  h1 {
     margin: 0px;
     padding-left: 50px;
+    padding-bottom: 10px;
     text-align: left;
  }
 
